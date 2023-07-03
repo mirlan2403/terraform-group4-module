@@ -3,9 +3,9 @@
 ## Usage:
 
 ```hcl
-module "group4" {
-  source  = ""
-  version = "0.0.1"
+module "module" {
+  source  = "mirlan2403/module/group4"
+  version = "0.0.2"
   region = "us-east-2"
   cidr_vpc = "10.0.0.0/16"
   cidr_public1 = "10.0.1.0/24"
